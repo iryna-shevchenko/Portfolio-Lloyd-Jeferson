@@ -1,128 +1,715 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/Portfolio-Lloyd-Jeferson/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/Portfolio-Lloyd-Jeferson/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/Portfolio-Lloyd-Jeferson/assets/styles-DvPDDfy5.css">
-  </head>
-  <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/Portfolio-Lloyd-Jeferson/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
-        </li>
-      </ul>
-    </nav>
-  </div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="/Portfolio-Lloyd-Jeferson/assets/favicon-DYV-fYtm.png" />
+  <title>Portfolio-Lloyd-Jeferson</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/Portfolio-Lloyd-Jeferson/index.js"></script>
+  <link rel="modulepreload" crossorigin href="/Portfolio-Lloyd-Jeferson/assets/vendor-BUtp7lFh.js">
+  <link rel="stylesheet" crossorigin href="/Portfolio-Lloyd-Jeferson/assets/vendor-B7goKWir.css">
+  <link rel="stylesheet" crossorigin href="/Portfolio-Lloyd-Jeferson/assets/index-Et9yohu_.css">
+</head>
+
+<body>
+  <header class="header header-container"></header>
+    <div class="header-logo-container">
+        <a href="./index.html" class='header-logo-link'>
+            <img class="header-logo-img" src="/Portfolio-Lloyd-Jeferson/assets/header-logo-DEOtYWJs.png" alt="Logo image" />
+            <span class="header-logo-span">jefferson*</span>
+        </a>
+        <button class="burger-menu-btn" aria-expanded="false" aria-controls="header-overlay">
+            <svg class="header-burger-menu-icon" width="28" height="28">
+                <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-burger"></use>
+            </svg>
+        </button>
+        <span class="header-menu-text">Menu</span>
+        <div class="header-place-for-btn">
+
+        </div>
+    </div>
+
+    <div id="header-overlay">
+        <div class="header-overlay-modal">
+            <button class="header-mobile-menu-close-btn">
+                <svg class="header-close-icon-svg" width="28" height="28">
+                    <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-close-x"></use>
+                </svg>
+            </button>
+            <div class="header-nav-wrapper">
+                <ul class="header-nav-list-modal">
+                    <li class="header-nav-list-item">
+                        <a href="#about-me" class="header-nav-list-item-link">About me</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="#benefits" class="header-nav-list-item-link">Benefits</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="#projects" class="header-nav-list-item-link">Projects</a>
+                    </li>
+                    <li class="header-nav-list-item">
+                        <a href="#faq" class="header-nav-list-item-link">FAQ</a>
+                    </li>
+                </ul>
+                <a href="#work-together" class="header-mobile-order-project-btn">
+                    Order the project
+                </a>
+            </div>
+        </div>
+    </div>
 </header>
 
+  <main>
+    <section class="hero"></section>
+    <div class="container">
+        <div class="content-hero">
+        <div class="box-for-title">
+            <h1 class="hero-main-title">Hello.
+                I'm Fullstack developer
+                Lloyd Jefferson.</h1>
+        </div>
 
-    <main>
-      <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/Portfolio-Lloyd-Jeferson/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+
+        <ul class="hero-social-list">
+            <li><a class="item-social-list" href="https://www.instagram.com/goitclub/" target="_blank">
+                    IG
+                </a></li>
+            <li><a class="item-social-list" href="https://www.facebook.com/goITclub/" target="_blank">
+                    FB
+                </a></li>
+            <li><a class="item-social-list" href="https://www.youtube.com/c/GoIT" target="_blank">
+                    YT
+                </a></li>
+            <li><a class="item-social-list" href="https://github.com/lexxus0/js-project-group-11" target="_blank">
+                    GH
+                </a></li>
+            <li><a class="item-social-list address-link"
+                    href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a></li>
+        </ul>
+        </div>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+</section>
+    <section class="about" id="about-me"></section>
+    <div class="container">
+        <h2 class="visually-hidden">Information about me</h2>
+        <div class="about-wrap-descr">
+            <div class="about-card-title">
+                <h3 class="about__title">I work with people all over the world to create impressive and <span
+                        class="about-accent-red">functional</span> <span class="about-accent-gray">websites</span> that
+                    reflect each client's unique
+                    personality.</h3>
+            </div>
+            <div class="about-card-image"></div>
+        </div>
+
+        <!-- Accordion -->
+
+        <ul class="about-accordion accordion-container">
+            <li class="about-accordion-item ac">
+                <h2 class="about-accordion-title ac-header">
+                    About me
+                    <button class="btn-arrow ac-trigger">
+                        <svg class="svg-arrow">
+                            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                </h2>
+
+                <div class="about-accordion-dropdown ac-panel">
+                    <p class="about-accordion-dscr">
+                        I am Lloyd Jefferson, a talented programmer with extensive expertise
+                        in software development. I have an understanding of different
+                        programming languages
+                        nd technologies, always ready to improve my
+                        skills. I always follow the latest trends and look for
+                        unconventional, creative solutions to problems. I have a high level
+                        of analytical skills and am able to effectively solve even the most
+                        difficult tasks encountered on the way.
+                    </p>
+                    <p class="about-accordion-dscr">
+                        Able to work both independently and in a team. I can effectively
+                        cooperate with colleagues, exchanging ideas and finding optimal
+                        solutions. Professional maturity allows you to calmly cope with
+                        challenges and stressful situations, while maintaining a high
+                        quality of work.I am always looking for opportunities for
+                        self-improvement. I actively study new technologies and practices to
+                        stay abreast of the latest innovations. I have a strong
+                        understanding of various programming languages, frameworks and
+                        architectural concepts that allow me to create efficient and
+                        scalable software.
+                    </p>
+                </div>
+            </li>
+            <li class="about-accordion-item ac">
+                <h2 class="about-accordion-title ac-header">
+                    Role
+                    <button class="btn-arrow ac-trigger">
+                        <svg class="svg-arrow">
+                            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                </h2>
+
+                <div class="about-accordion-dropdown ac-panel">
+                    <ul class="about-accordion-list">
+                        <li class="about-accordion-dscr">Frontend development</li>
+                        <li class="about-accordion-dscr">HeadlessCMS,Wordpress</li>
+                        <li class="about-accordion-dscr">Blender(enjoy)</li>
+                    </ul>
+                </div>
+            </li>
+            <li class="about-accordion-item ac">
+                <h2 class="about-accordion-title ac-header">
+                    Education
+                    <button class="btn-arrow ac-trigger">
+                        <svg class="svg-arrow">
+                            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+                        </svg>
+                    </button>
+                </h2>
+
+
+                <div class="about-accordion-dropdown ac-panel">
+                    <ul class="about-accordion-list">
+                        <li class="about-accordion-dscr">
+                            2018 - 2019 / Frontend Development Diploma, GoIT IT School, New
+                            York
+                        </li>
+                        <li class="about-accordion-dscr">
+                            2019 - 2020 / Advanced Web Development Certificate, GoIT IT
+                            School, New York
+                        </li>
+                        <li class="about-accordion-dscr">
+                            2020 - 2022 / Advanced Blender Animation Techniques, Udemy
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+
+        <!-- Skills (swiper) -->
+
+        <div class="about-skills-container">
+            <div class="about-skills-swiper swiper">
+                <ul class="about-skills-list swiper-wrapper">
+                    <li class="about-skills-item swiper-slide">HTML/CSS</li>
+                    <li class="about-skills-item swiper-slide">JavaScript</li>
+                    <li class="about-skills-item swiper-slide">React</li>
+                    <li class="about-skills-item swiper-slide">Node. js</li>
+                    <li class="about-skills-item swiper-slide">React Native</li>
+                    <li class="about-skills-item swiper-slide">Soft skills</li>
+                    <li class="about-skills-item swiper-slide">Redux</li>
+                    <li class="about-skills-item swiper-slide">TypeScript</li>
+                    <li class="about-skills-item swiper-slide">Bootstrap</li>
+                    <li class="about-skills-item swiper-slide">REST API</li>
+                </ul>
+            </div>
+
+            <button class="about-skills-btn swiper-button-next">
+                <svg class="about-arrow-right">
+                    <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-right"></use>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+</section>
+    <section id="benefits" class="benefits section"></section>
+  <div class="container">
+    <div class="benefits-wrapper">
+      <h2 class="benefits-title">Benefits of working with me</h2>
+      <div class="benefits-wrap-desktop">
+        <ul class="benefits-list">
+          <li class="benefits-item">
+            <div class="benefits-item-icon">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-benefits-1"></use>
+              </svg>
+            </div>
+            <h3 class="benefit-item-title">Expertise</h3>
+            <p class="benefit-item-text">
+              As a highly experienced developer, I have deep knowledge of
+              programming and website development.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-item-icon">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-benefits-2"></use>
+              </svg>
+            </div>
+            <h3 class="benefit-item-title">Communication</h3>
+            <p class="benefit-item-text">
+              Understanding your needs and wants is my priority and I am always
+              open to discussions and corrections.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-item-icon">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-benefits-3"></use>
+              </svg>
+            </div>
+            <h3 class="benefit-item-title">Art</h3>
+            <p class="benefit-item-text">
+              Thanks to my creative nature, I am ready to accept challenges and
+              help you bring your ideas to life.
+            </p>
+          </li>
+          <li class="benefits-item">
+            <div class="benefits-item-icon">
+              <svg class="benefits-icon" width="24" height="24">
+                <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-benefits-4"></use>
+              </svg>
+            </div>
+            <h3 class="benefit-item-title">Urgent execution</h3>
+            <p class="benefit-item-text">
+              I understand how important time is to you. Ready to work quickly
+              and efficiently, without reducing the quality of work.
+            </p>
+          </li>
+        </ul>
+        <a href="#work-together" class="benefits-anchor">Order the project</a>
+      </div>
+    </div>
   </div>
 </section>
 
-      <article class="badges">
+    <section class="projects-section" id="projects"></section>
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
+    <h2 class="projects-title">Projects</h2>
+    <div class="swiper projects-swiper">
+      <ul class="projects-cards swiper-wrapper">
+        <li class="projects-list-item swiper-slide">
+          <div class="projects-card-top">
+            <ul class="projects-skills-list">
+              <li class="projects-skills-item">#react</li>
+              <li class="projects-skills-item">#js</li>
+              <li class="projects-skills-item">#node js</li>
+              <li class="projects-skills-item">#git</li>
+            </ul>
+            <h3 class="projects-card-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+            <div class="projects-card-button">
+              <a class="projects-card-link" href="https://github.com/lexxus0/js-project-group-11.git"
+                target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-card-bottom">
+            <picture class="projects-img">
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-1-R4dXn62Z.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-1-tablet@2x-2MgEjgeD.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-1-mobile@1x-C32P37yz.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-1-mobile@2x-DP-ts4X_.jpg 2x"
+                media="(max-width: 767px)" />
+              <img src="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-1-R4dXn62Z.jpg" alt="Portfolio picture">
+            </picture>
+          </div>
+        </li>
+        <li class="projects-list-item swiper-slide">
+          <div class="projects-card-top">
+            <ul class="projects-skills-list">
+              <li class="projects-skills-item">#react</li>
+              <li class="projects-skills-item">#js</li>
+              <li class="projects-skills-item">#node js</li>
+              <li class="projects-skills-item">#git</li>
+            </ul>
+            <h3 class="projects-card-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+            <div class="projects-card-button">
+              <a class="projects-card-link" href="https://github.com/lexxus0/js-project-group-11.git"
+                target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-card-bottom">
+            <picture class="projects-img">
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-2-Cr5pADuj.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-2-tablet@2x-CLdEhYbY.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-2-mobile@1x-TRvI8dTc.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-2-mobile@2x-D4QL9ndJ.jpg 2x"
+                media="(max-width: 767px)" />
+              <img src="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-2-Cr5pADuj.jpg" alt="Portfolio picture">
+            </picture>
+          </div>
+        </li>
+        <li class="projects-list-item swiper-slide">
+          <div class="projects-card-top">
+            <ul class="projects-skills-list">
+              <li class="projects-skills-item">#react</li>
+              <li class="projects-skills-item">#js</li>
+              <li class="projects-skills-item">#node js</li>
+              <li class="projects-skills-item">#git</li>
+            </ul>
+            <h3 class="projects-card-title">Programming Across Borders: Ideas, Technologies, Innovations</h3>
+            <div class="projects-card-button">
+              <a class="projects-card-link" href="https://github.com/lexxus0/js-project-group-11.git"
+                target="_blank">See project</a>
+            </div>
+          </div>
+          <div class="projects-card-bottom">
+            <picture class="projects-img">
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-3-BJniLeAX.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-3-tablet@2x-qXFtYEWr.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-3-mobile@1x-BCd7s_ey.jpg 1x, /Portfolio-Lloyd-Jeferson/assets/portfolio-image-3-mobile@2x-D3pwV4lR.jpg 2x"
+                media="(max-width: 767px)" />
+              <img src="/Portfolio-Lloyd-Jeferson/assets/portfolio-image-3-BJniLeAX.jpg" alt="Portfolio picture">
+            </picture>
+          </div>
+        </li>
+      </ul>
+      <div class="projects-swiper-buttons">
+        <button class="projects-btn-prev" tabindex="0">
+          <svg class="projects-icon">
+            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button class="projects-btn-next" tabindex="0">
+          <svg class="projects-icon">
+            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+    <section class="faq section" id="faq"></section>
+  <div class="container">
+    <h2 class="faq-title">FAQ</h2>
+    <ul class="faq-list list">
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">What programming languages are most often used in your project?</h3>
+          <button type="button" class="btn-arrow">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">In the field of web development, there are various technologies and programming languages.
+            Typically, this includes a combination of frontend (client side) and backend (server side) languages.</p>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">What are the deadlines for the project?</h3>
+          <button type="button" class="btn-arrow ac-trigger">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">The terms of project implementation depend to a large extent on a number of factors, such
+            as the scope of the project, its complexity, and the availability of resources. Determining exact deadlines
+            is a difficult task, and it usually occurs during the planning phase of the project.</p>
+        </div>
       </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">What payment methods do you accept?</h3>
+          <button type="button" class="btn-arrow ac-trigger">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">Payment through credit and debit cards such as Visa, MasterCard, specialized electronic
+            payment systems such as PayPal, as well as payments in cryptocurrencies such as Bitcoin, Ethereum and
+            others.</p>
+        </div>
+
+      </li>
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">How can I contact you?</h3>
+          <button type="button" class="btn-arrow ac-trigger">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">In the field of web development, there are various technologies and programming languages.
+            Typically, this includes a combination of frontend (client side) and backend (server side) languages.</p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">Do you provide advice or support?</h3>
+          <button type="button" class="btn-arrow ac-trigger">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">The terms of project implementation depend to a large extent on a number of factors, such
+            as the scope of the project, its complexity, and the availability of resources. Determining exact deadlines
+            is a difficult task, and it usually occurs during the planning phase of the project.</p>
+        </div>
+      </li>
+      <li class="faq-item">
+        <div class="faq-header">
+          <h3 class="faq-questions">What does the process of developing a software product look like from idea to
+            implementation?</h3>
+          <button type="button" class="btn-arrow ac-trigger">
+            <svg class="arrow-icon" width="16" height="16">
+              <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-down"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="faq-text-wrap">
+          <p class="faq-text">Payment through credit and debit cards such as Visa, MasterCard, specialized electronic
+            payment systems such as PayPal, as well as payments in cryptocurrencies such as Bitcoin, Ethereum and
+            others.</p>
+        </div>
       </li>
     </ul>
   </div>
-</article>
+</section>
+    <section class="covers" id="covers"></section>
+   <div class="container">
+      <h2 class="visually-hidden covers-title">Covers</h2>
 
-    </main>
+      <div class="covers-content">
+         <ul class="covers-list marquee">
+            <li class="marquee__inner">
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/body@2x-BUAkItuE.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/body@1x-BFhyl_nj.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
 
-    <footer class="footer">
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/get-body@2x-ZfO6kUgH.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/get-body@1x-LH4ywqjW.webp" alt="Get Body in shape, Stay healthy" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/brand@2x-DSCJpbcs.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/brand@1x-Dhihh5uC.webp" alt="a brand that is inspired by forms creates by nature."
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/finances@2x-BmWrMgLC.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/finances@1x-CYfFlhqD.webp" alt="Manage Your Finances Masterfully!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/organic@2x-CaL3FJ1L.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/organic@1x-c7mQJYpY.webp" alt="ORGANIC VEGETABLES TO YOUR DIET TODAY!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/ukrainian@2x-CtaZJoro.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/ukrainian@1x-CnW960gH.webp"
+                  alt="Reviving the traditional Ukrainian artistry in every stitch." width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp" alt="Turn your business into an online leader" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/discover@2x-C3_foRwA.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/discover@1x-CA_pYoox.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/mimino@2x-CaucmGkh.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/mimino@1x-CJpUnBUB.webp" alt="MIMINO" width="282" height="162">
+            </li>
+
+            <li class="marquee__inner">
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/ukrainian@2x-CtaZJoro.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/ukrainian@1x-CnW960gH.webp"
+                  alt="Reviving the traditional Ukrainian artistry in every stitch." width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/discover@2x-C3_foRwA.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/discover@1x-CA_pYoox.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/body@2x-BUAkItuE.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/body@1x-BFhyl_nj.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/mimino@2x-CaucmGkh.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/mimino@1x-CJpUnBUB.webp" alt="MIMINO" width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp" alt="Turn your business into an online leader" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/get-body@2x-ZfO6kUgH.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/get-body@1x-LH4ywqjW.webp" alt="Get Body in shape, Stay healthy" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/finances@2x-BmWrMgLC.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/finances@1x-CYfFlhqD.webp" alt="Manage Your Finances Masterfully!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/brand@2x-DSCJpbcs.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/brand@1x-Dhihh5uC.webp" alt="a brand that is inspired by forms creates by nature."
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/organic@2x-CaL3FJ1L.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/organic@1x-c7mQJYpY.webp" alt="ORGANIC VEGETABLES TO YOUR DIET TODAY!" width="282"
+                  height="162">
+            </li>
+
+            <li class="marquee__inner">
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/organic@2x-CaL3FJ1L.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/organic@1x-c7mQJYpY.webp" alt="ORGANIC VEGETABLES TO YOUR DIET TODAY!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp"
+                  src="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp" alt="Turn your business into an online leader" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/finances@2x-BmWrMgLC.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/finances@1x-CYfFlhqD.webp" alt="Manage Your Finances Masterfully!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/brand@2x-DSCJpbcs.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/brand@1x-Dhihh5uC.webp" alt="a brand that is inspired by forms creates by nature."
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/discover@2x-C3_foRwA.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/discover@1x-CA_pYoox.webp" alt="Discover the joy of learning English with us!"
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/mimino@2x-CaucmGkh.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/mimino@1x-CJpUnBUB.webp" alt="MIMINO" width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/fresh@2x-BwwwiujY.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/fresh@1x-9qMODFVO.webp"
+                  alt="Fresh harvest box is your one-stop place for a delicious fruit basket" width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/ukrainian@2x-CtaZJoro.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/ukrainian@1x-CnW960gH.webp"
+                  alt="Reviving the traditional Ukrainian artistry in every stitch." width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/get-body@2x-ZfO6kUgH.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/get-body@1x-LH4ywqjW.webp" alt="Get Body in shape, Stay healthy" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/body@2x-BUAkItuE.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/body@1x-BFhyl_nj.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
+            </li>
+
+            <li class="marquee__inner">
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/get-body@2x-ZfO6kUgH.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/get-body@1x-LH4ywqjW.webp" alt="Get Body in shape, Stay healthy" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/fresh@2x-BwwwiujY.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/fresh@1x-9qMODFVO.webp"
+                  alt="Fresh harvest box is your one-stop place for a delicious fruit basket" width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/ukrainian@2x-CtaZJoro.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/ukrainian@1x-CnW960gH.webp"
+                  alt="Reviving the traditional Ukrainian artistry in every stitch." width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/business@1x-BxcEXTOe.webp" alt="Turn your business into an online leader" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/finances@2x-BmWrMgLC.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/finances@1x-CYfFlhqD.webp" alt="Manage Your Finances Masterfully!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/brand@2x-DSCJpbcs.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/brand@1x-Dhihh5uC.webp" alt="a brand that is inspired by forms creates by nature."
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/organic@2x-CaL3FJ1L.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/organic@1x-c7mQJYpY.webp" alt="ORGANIC VEGETABLES TO YOUR DIET TODAY!" width="282"
+                  height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/discover@2x-C3_foRwA.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/discover@1x-CA_pYoox.webp" alt="Discover the joy of learning English with us!"
+                  width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/mimino@2x-CaucmGkh.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/mimino@1x-CJpUnBUB.webp" alt="MIMINO" width="282" height="162">
+
+               <img class="marquee__line" srcset="/Portfolio-Lloyd-Jeferson/assets/body@2x-BUAkItuE.webp 2x"
+                  src="/Portfolio-Lloyd-Jeferson/assets/body@1x-BFhyl_nj.webp" alt="Transforming your body shape with Power Pulse"
+                  width="282" height="162">
+            </li>
+         </ul>
+      </div>
+
+   </div>
+</section>
+    <section class="reviews-section"></section>
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
-    </p>
+    <h2 class="reviews-title">Reviews</h2>
+    <div class="swiper">
+      <ul class="reviews-cards swiper-wrapper">
+      </ul>
+      <div class="reviews-swiper-buttons">
+        <button class="reviews-btn-prev" tabindex="0">
+          <svg class="reviews-icon">
+            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-left"></use>
+          </svg>
+        </button>
+        <button class="reviews-btn-next" tabindex="0">
+          <svg class="reviews-icon">
+            <use href="/Portfolio-Lloyd-Jeferson/assets/icons-VBeDwWuU.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="footer-section container section" id="work-together"></footer>
+  <div class="footer-container">
+    <div class="footer-title-box">
+      <div class="footer-title-top">
+        <picture>
+          <source type="image/webp" srcset="data:image/webp;base64,UklGRlACAABXRUJQVlA4WAoAAAAQAAAAKwAAKwAAQUxQSI4AAAABZ2CQbeTgjeBmcG/0ERHRp4ydwk21bcty47ARwL4AFHGIwOoQgBC+/RH+DUZ3+1r99qxsEf2fACC/+dqQ+2ocr/nYiLO4Z2sj14GOFabgpmhgfop9fGqluaumcNcMPxrnp3HtX/yr2X80zlPTuGgqc03G/BT7OHdFA7qKNLCLVgcw7yhO3INZ/8K4vRgAVlA4IJwBAADwCACdASosACwAPpFAnUsloyKhpzgIALASCWMAwvneEX8/wCLj9H1rmHWvZUP6IXGuANW7I1rG988yt+BPzqr0q4UjR/qqFjieEWmipFZCgAD+/BLOuuA4I/TSr8ncg1hvgUv8TnGABjU60ACiCmQPVzxXrP6pG2aQATPaRZqJcfqlYyh1/VVPteAtdduEpgcuq64nQnZzrXracJdBq6Qx25Vad1nzAcjTZ47MNrQUPBL9PJGPkwmsbYfB1W4DMx7lt1BOMDGKwZQKd9pR/UKzWNVb+QXrNmGfPxHQzId6O+wXd7SubbsX2FgfxiFwbHRNz0XOVgm546gyUPaGYag2FWdaPJjBRfWUfYr5UsbeRJ1n6UaxoSPtnbGe0FlieVdkCEZDa7L1O6GUFDM3N5U579J97MWMe/fAOAqa1ZQusQfxnlH3NCQlhRFssGMG3fzPmSG83DsIaqN5AjbUpHeOw92++KSzUX7PTwjAX4tr5CMkbAea9NXC4wjMTPC25A+KgtivNWg//3hskk9O0X2zFHF6+8/w5rk5kAAA 1x, data:image/webp;base64,UklGRmYCAABXRUJQVlA4WAoAAAAQAAAAKwAAKwAAQUxQSLcAAAABcFtr29K8f4WNIyVMAxkDOpsAajIJsAZxT/lTWtzeNk1ETACeqk5U7bvLV8dznToG3hRmvusvP+yPhS1e6H5z+fnC056oQXshlIEGQHjyQil9AdiLC+nMgl5caDPFPfJs3XTgGaL6QlyemfYjU3f5u+2Yxj3TuWSqo4FnSN0tz9FVMp5ChzVjWdiAmLQc0hMAtFAytKGKR81b/m7m63gu7Omx/0W/y02BNw0nrc/jd7p9FTkqngIAVlA4IIgBAACQCACdASosACwAPpFEnUslo6KhpzgIALASCWMAxgXdhYXxcfpa3psrVoSFHWztmhahORNxtrb+2BNE198QS487wauqQWiErpM3xply4AD+/BLOuuA4S21Sst+ytuF26bo++hvqJRL/ale/fR2OdrRMSXM51nhjVeBdx0QUwWzLuOSXjAhEQi0SEbNQ4QV0agR6690CEnfDUKLkXPiOSpbdc/Kj3WvmdWGQ0ttc3DUbePLr6GSpa7PafPyZjiZ6I0MVTFqeWBxF27e1hct9hHsx/nc5U51muGIsxSYvsE3z0dn36VfaWgWsOb1fbsZi/bG9oosP16RY7zCmyKKni0pt8WT0f8mlKkJbuY1jpM0Jc+YV5ki9YdmqP0S0MI6cLrxntjfnxl2kgY1/AOjB8VZuxxdjhdQItF3kPEoTBya00PGTmKTmopg9T8ajF17qNdLZdJX+T8JRF08EOOKw8szoSv9QED8ZtUn1fMq1SskYKQXXnYr2+QJ92UUCiUxBdpSXHUlzc2qAAA== 2x" media="(max-width: 767px)" />
+          <source type="image/png" srcset="data:image/png;base64,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 1x, /Portfolio-Lloyd-Jeferson/assets/footer_mobile@2x-BcYvejMI.png 2x" media="(max-width: 767px)" />
+
+          <source type="image/webp" srcset="data:image/webp;base64,UklGRrQDAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSOYAAAABgFZtb93mg2AIghQGFROLQc0gZdAxMARDMARBUO++SH93TkRMAMYTX+9dbX6vVyasTrnalo1pRcpq+540LavtnedQs+07TbioOdRjKJvTPJDNbf7pMMeXH0g9KX3r5rp9yeZcPpB51/R2ujMBQOZfE8ABmAAtggqyEBPHwCWGUmP46zF0i1GD+FdSg+gx9HsMtcRQOAZOMRBqBA2QCBhIGgABEH8nACR1R28Qb4LPzVfHV1JPSt/Ang78Kn4Ev4sXweihHpQxTn2/Rpgqm6lgNt02UklYSNz2qJKwmrjUvkD7vXDCOFZQOCCoAgAAMA8AnQEqRgBGAD6RPJdHpaOiIS9Wq7CwEgllAM8s9hWYoRHdD9TH1WQsEou71uGB4vgz0mRGYJvLfo5fOG/TvdFXUmdVNClcgkse1sTG3MkKUf9XVe4IAvx73PDqOFSed7V6uXa3r52eYd5MiuJR/5qvxOtnKGyZLl5fF5ZNOaBfEAD++MdnW1izp3i2s7Om81/4eaXS95ymsmz9Ctw6eKHWx2bAguTiO5H6kITR2vEKidikobiwc7RExuH5+CQz8XL3LTxJY/iTJyysHMNk5kTi2joTNC1lcL0rq250ezHgjmcqsxerGwP14pdn+4N3//9XzCw4VnJFUR8LXmhPIgDihgdCdDlTZUiNeq94c5z9DezCLGV8D9OiWEheYDCe/bqB4W4ChbZJhfDMbvwtq2Ch3AxELUd3jdw/lap0plNTFgYasRW3Re9fXFtB4OUstobvpfk9sLNcQ8A9HW3RPI6QSmvlYnU7NO/mx0LEEVmeFN1HDH1h9dTr6ZWBBJjTP7DEEAndGsFfC/34DN+NFTnjbyTGT8NRn0vpMVxmPw7SvClw+bLV6LsIWGiEhldAe1b3R4CrBBjjfYeKcv2cJZxoESDH7RtgQFMXcMjGmA0sXTPIpL/Kbzefw39IJbd6O67YW2NqpTGGI+6tEhnjZ7nl6xResp8BagkyrC7vUGa7+eTZ0nB6vY/c0zdZwochtTBxtMG8SmRWl/FOHUP50OuTwHQHW+BMet5shktzTidMeFRNGLyQdSBnoPXgDXseFjA66NygVTiz88/CWjrdmxWHBashZ9ESS+5EbHdVrH3w3Fs8dhlgny7brNrwC8qc6iUqPTKSHPoGUDaR/s1skLX72ovgjmFrujDxb0FVXpavxEiRPkyvHuHZ0gjLyIoIKX694pQAAAA= 1x, data:image/webp;base64,UklGRh4EAABXRUJQVlA4WAoAAAAQAAAARQAARQAAQUxQSH8BAAABgBtt/9vkU7xzp9b2BOSc0SYOIwTQoYowgEvc21OQKa0xEkkVOSr8/2Rk/f4tdxExAfirZCyu9frBE+MZs0fP6TZXDAxWG7IOwogP/C3ct0bU7OTpjpvwnCZue0LNqLzpMZ5jFmwXs5DN04TnPDoy5T/pdZ8T9Cv6HwobN5zkjV34lWY/cKIPtvYLqXLNyV7XpZ9MnxP2zR9KR5z0SfkbdSemlWzKXyY9TtybAaC0OfmOBoy49NxhwErpsXUYe1yA+8ZKKIKrpcabCKK1LhdizxGD44kheBTDE/939EkMj4EYvL4YnJ4YuuuRCN4aS1ciCFeMfRHsGVhn9FILGHbpuSOA1qHXVgDMeNS8SQCQNxNa8bb6BeVTWkclfG/6lHwTP0r1GzrXFeknaPYDlQdbw28L9g2NG7uA3+sVj4Jf1/FX2TyK8pacmjIyLG4HLFf+ZhnZqhNtN8lL4u7OyMhcHbH2w7fBReGBNaRhsMZKs+t4jywr9hT0e2uLhoS/AgBWUDggeAIAAFAOAJ0BKkYARgA+kTyYSKWjIiEvUrsQsBIJZQDRD27JGetvrvGFAXkUTFb97mZrUPT3bHwLTAwiuwZOkKVf7wnJVNsT1vyDTnua+lmsbBaI+ARAOchbMXp2KXr38AVxSLvfnWvgl3PIN6UrMxmE6a3scYy6gfg4M1ddIAD++DgMUeJpjuZaulRC3+DCO5mTIfheHhQKnOILOZBUuPpw+e91U20O6fae4Ek+ybOI3k6PN9uSerf6MQyx9OrKCfme2SikxupHoYOMfn+i8ilr50z7KM3MbS0qwXxLrw3+4ZPDtVH7ZaZqvydyc27/rBds6l5Zh0FShvwc69v56WZlnVlKhK19Jy5mdLFqMPqdYuMtRtNdf/NE5gm62BwS3SzjV2tUrGuvk6PEnby9QLL5GbnNoBSL1LcXaOzheTbvS/zhkjr6Cbp0cP8czUQQ6IZRNApVmfYAh4BZvfJOe7NwAGfEYIpDhwqvV9OKdaKPl8TziZdPbvHxiPfVomoCbSkHxXbty7IoekkIvoL8ifVVMv1tnJHerkZ2etIJ6RDOGGeOnpyl6mrBrAgnvc0noV/UK5z/nw/DBNNTDVbR/Ajq2YCPVqqSWidvn2LRsx5+PZ3Mwmo2T9iwE3HR0UI+hD9zzyvamsidixz7FLfOTcMLjv45d0U86YBrDAUyZ0ZaKpOdZRa1PCZqvO1cdbmCS/JjHi2M9cmgb7WlH9WjR6VToewyltey+ZnQfgejSKTHcQhjgMo8aZcugSm2O+E73RoLv+WDv32bxC2/VfI/uDHfnzL9juGtnk9MCPaGTU/PyCWoA5WC7XKvMAvoUcbqqrBCtziRUHeiAAAA 2x" media="(min-width: 768px)" />
+          <source type="image/png" srcset="/Portfolio-Lloyd-Jeferson/assets/footer_tab@1x-DSu0JUTI.png 1x, /Portfolio-Lloyd-Jeferson/assets/footer_tab@2x-9TYM7iou.png 2x" media="(min-width: 768px)" />
+          <img class="footer-image" src="data:image/png;base64,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" alt="Profile picture" />
+        </picture>
+        <h2 class="footer-text-title">
+          Let&prime;s&nbsp;<span class="highlight">work</span>
+        </h2>
+      </div>
+      <h2 class="footer-bottom-title">together</h2>
+    </div>
+    <form class="footer-form">
+      <div class="input-container">
+        <input class="footer-input" id="email" name="email" type="email" placeholder="clients@gmail.com" />
+        <span class="message success" id="successMessage">Success!</span>
+        <span class="message error" id="errorMessage">Invalid email, try again</span>
+      </div>
+      <input id="comments" class="footer-input no-scroll" name="footer comments" type="text" placeholder="comments" />
+      <button class="footer-send-btn" type="submit">Send</button>
+    </form>
+    <address class="info">
+      <ul class="footer-contacts">
+        <li class="footer-contacts-item">
+          <a class="info-link" href="mailto:lloydjefferson@gmail.com">lloydjefferson@gmail.com</a>
+        </li>
+
+        <li class="footer-contacts-item">
+          <a class="info-link" href="tel:+3801111111111">+380 11 1111 11 11</a>
+        </li>
+      </ul>
+    </address>
   </div>
 </footer>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/2.6.4/bodyScrollLock.min.js"></script>
+</body>
 
-  </body>
 </html>
